@@ -31,7 +31,7 @@ html,body{
 }
 .fixedWidthContainer{
   width:830px;
-  display:block;
+  display:inline-block;
   top:50px;
   position:relative;
 }
