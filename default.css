@@ -43,7 +43,7 @@ html,body{
 .module .p_title{
   height:40px;
   line-height:40px;
-  color:white;
+  color:#111;
   font-size:32px;
   width:100%;
 }
