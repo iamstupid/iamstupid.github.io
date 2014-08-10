@@ -37,13 +37,14 @@ html,body{
   margin-left:15%;
   margin-right:15%;
   margin-top:50px;
+  border-top:5px solid #2980B9;
 }
 .module .p_title{
   height:40px;
   line-height:40px;
   color:white;
   font-size:32px;
-  background:#2980B9;
+  text-align:right;
   width:100%;
 }
 *::selection{
