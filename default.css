@@ -30,7 +30,7 @@ html,body{
   text-align:center;
 }
 .module{
-  background:#BDC3C7;
+  background:#ECF0F1;
   padding:0;
   width:70%;
   box-shadow:0 0 3px #111;
@@ -38,13 +38,13 @@ html,body{
   margin-right:15%;
   margin-top:50px;
   border-top:5px solid #2980B9;
+  text-align:left;
 }
 .module .p_title{
   height:40px;
   line-height:40px;
   color:white;
   font-size:32px;
-  text-align:right;
   width:100%;
 }
 *::selection{
