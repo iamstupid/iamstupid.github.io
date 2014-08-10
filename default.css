@@ -10,3 +10,7 @@
   left:0;
   background:-webkit-linear-gradient(#222,#333);
 }
+html,body{
+  margin:0px;
+  padding:0px;
+}
