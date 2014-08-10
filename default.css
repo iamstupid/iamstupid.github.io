@@ -94,12 +94,12 @@ html,body{
 .date{
   position:absolute;
   top:0px;
-  left:0px;
+  right:0px;
   font-family:Consolas,Ubuntu Mono,Courier New;
   font-size:10px;
   display:block;
   height:12px;
   line-height:12px;
   background:rgba(230,230,230,0.6);
-  width:60px;
+  width:90px;
 }
