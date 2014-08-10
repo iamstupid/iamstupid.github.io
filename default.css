@@ -34,10 +34,10 @@ html,body{
   top:50px;
 }
 .module .p_title{
-  height:26px;
-  line-height:26px;
+  height:40px;
+  line-height:40;
   color:white;
-  font-size:22px;
+  font-size:36px;
   background:#0343df;
   width:100%;
 }
