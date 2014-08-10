@@ -69,7 +69,8 @@ html,body{
   background:#5af;
 }
 .postCont{
-  min-height:30px;
+  height:50px;
+  line-height:50px;
 }
 .pcont:nth-child(2n){
   background:#eee;
@@ -79,4 +80,12 @@ html,body{
 }
 .postCont:hover{
   background:#ffe;
+}
+.postTitle{
+  display:inline-block;
+  height:50px;
+  width:50px;
+  background:#2ECC71;
+  text-decoration:none;
+  color:black;
 }
