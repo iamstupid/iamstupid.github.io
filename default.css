@@ -32,7 +32,7 @@ html,body{
 .fixedWidthContainer{
   width:830px;
   line-height:0px;
-  display:block;
+  display:inline-block;
   top:50px;
 }
 .module{
