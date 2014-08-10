@@ -35,6 +35,9 @@ html,body{
 }
 .module .p_title{
   height:26px;
+  line-height:26px;
+  color:white;
+  font-size:22px;
   background:#0343df;
   width:100%;
 }
