@@ -4,9 +4,12 @@ title: Blog 4 tmzbot
 ---
 <h2>{{ page.title }}</h2>
 <p class="p_tit">最新文章</p>
-<ul>
+<div class="pcont">
 {% for post in site.posts %}
-<li class="postCont">
-    <span class="date"></span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}" class="postTitle">{{ post.title }}</a></li>
+<div class="postCont">
+    <div class="postcont">
+        <span class="date"></span>{{ post.date | date_to_string }}</span>
+        <a href="{{ post.url }}" class="postTitle">{{ post.title }}</a>
+    </div>
     {% endfor %}
-</ul>
+</div>
