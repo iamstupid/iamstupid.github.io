@@ -2,7 +2,9 @@
 layout: default
 title: Blog 4 tmzbot
 ---
-<h2 class="topbar">{{ page.title }}</h2>
+<div class="topbar">
+    <span class="topBar_title" onclick="location.href='iamstupid.github.io'">{{ page.title }}</span>
+</div>
 <p class="p_title">最新文章</p>
 <div class="pcont">
 {% for post in site.posts %}
