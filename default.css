@@ -29,13 +29,15 @@ html,body{
 .cont_center{
   text-align:center;
 }
+.fixedWidthContainer{
+  width:800px;
+  line-height:0px;
+}
 .module{
   background:#FFF;
   padding:0;
-  width:70%;
+  width:100%;
   box-shadow:0 0 3px #111;
-  margin-left:15%;
-  margin-right:15%;
   margin-top:50px;
   border-top:5px solid #3498DB;
   text-align:left;
@@ -46,6 +48,17 @@ html,body{
   color:#111;
   font-size:32px;
   width:100%;
+}
+.cont_left{
+  display:inline-block;
+  width:550px;
+  margin-right:20px;
+  margin-bottom:20px;
+}
+.cont_right{
+  display:inline-block;
+  width:230px;
+  margin-bottom:20px;
 }
 *::selection{
   background:#5af;
