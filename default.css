@@ -68,7 +68,7 @@ html,body{
 *::selection{
   background:#5af;
 }
-.postCont{
+.pcont .postCont{
   height:50px;
   position:relative;
   line-height:50px;
@@ -80,7 +80,7 @@ html,body{
 .pcont .postCont:nth-child(2n+1){
   background:#fff;
 }
-.postCont:hover{
+.pcont .postCont:hover{
   background:#95a5a6;
 }
 .postTitle{
