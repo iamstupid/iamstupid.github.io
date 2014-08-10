@@ -85,6 +85,8 @@ html,body{
   display:inline-block;
   height:50px;
   width:50px;
+  font-size:20px;
+  line-height:25px;
   background:#2ECC71;
   text-decoration:none;
   color:black;
