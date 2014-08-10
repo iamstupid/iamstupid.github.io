@@ -71,10 +71,10 @@ html,body{
 .postCont{
   padding:7px;
 }
-.pcont::nth-child(2n){
+.pcont:nth-child(2n){
   background:#eee;
 }
-.pcont::nth-child(2n+1){
+.pcont:nth-child(2n+1){
   background:#fff;
 }
 .postCont:hover{
