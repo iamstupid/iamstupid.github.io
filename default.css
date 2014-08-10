@@ -29,7 +29,7 @@ html,body{
   text-align:center;
 }
 .module{
-  background:#ECF0F1;
+  background:#2980B9;
   padding:0;
   width:70%;
   box-shadow:0 0 3px #111;
@@ -44,4 +44,8 @@ html,body{
   font-size:32px;
   background:#0343df;
   width:100%;
+}
+*::selection{
+  background:#5af;
+}
 }
