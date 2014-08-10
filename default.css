@@ -57,17 +57,17 @@ html,body{
   display:block;
   width:550px;
   margin-right:20px;
-  left:0;
+  left:10px;
   position:absolute;
 }
 .cont_right{
-  top:0px;
+  top:0px !important;
   display:block;
   width:230px;
   margin-bottom:20px;
   position:absolute;
   top:-30px;
-  right:0;
+  right:10px;
 }
 *::selection{
   background:#5af;
