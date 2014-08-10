@@ -41,6 +41,7 @@ html,body{
   margin-top:50px;
   border-top:5px solid #3498DB;
   text-align:left;
+  margin-bottom:20px;
 }
 .module .p_title{
   height:40px;
@@ -53,7 +54,6 @@ html,body{
   display:inline-block;
   width:550px;
   margin-right:20px;
-  margin-bottom:20px;
 }
 .cont_right{
   display:inline-block;
