@@ -25,3 +25,13 @@ html,body{
   margin:0px;
   padding:0px;
 }
+.module{
+  border:1px solid #777;
+  padding:0;
+  width:70%;
+}
+.module .p_title{
+  height:26px;
+  background:#0343df;
+  width:100%;
+}
