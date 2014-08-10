@@ -6,5 +6,7 @@
   width:100%;
   opacity:0.7;
   color:white;
+  top:0;
+  left:0;
   background:-webkit-linear-gradient(#222,#333);
 }
