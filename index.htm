@@ -5,15 +5,17 @@ title: Blog 4 tmzbot
 <div class="topbar">
     <span class="topBar_title" onclick="location.href='http://iamstupid.github.io'">{{ page.title }}</span>
 </div>
-<div class="module">
-    <div class="p_title">最新文章</div>
-    <div class="pcont">
-    {% for post in site.posts %}
-    <div class="postCont">
-        <div class="postcont">
-            <span class="date"></span>{{ post.date | date_to_string }}</span>
-            <a href="{{ post.url }}" class="postTitle">{{ post.title }}</a>
+<div class="cont_center">
+    <div class="module">
+        <div class="p_title">最新文章</div>
+        <div class="pcont">
+        {% for post in site.posts %}
+        <div class="postCont">
+            <div class="postcont">
+                <span class="date"></span>{{ post.date | date_to_string }}</span>
+                <a href="{{ post.url }}" class="postTitle">{{ post.title }}</a>
+            </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </div>
 </div>
