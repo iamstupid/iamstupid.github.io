@@ -74,7 +74,6 @@ html,body{
 .pcont .postCont{
   height:50px;
   position:relative;
-  line-height:50px;
   transition:all .3s;
 }
 .pcont .postCont:nth-child(2n){
