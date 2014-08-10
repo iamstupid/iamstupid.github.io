@@ -25,14 +25,14 @@ html,body{
   margin:0px;
   padding:0px;
 }
+.cont_center{
+  text-align:center;
+}
 .module{
   border:1px solid #777;
   background:#ECF0F1;
   padding:0;
   width:70%;
-  position:absolute;
-  left:200px;
-  top:50px;
 }
 .module .p_title{
   height:40px;
