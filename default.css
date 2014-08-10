@@ -38,10 +38,10 @@ html,body{
   padding:0;
   width:100%;
   box-shadow:0 0 3px #111;
-  margin-top:50px;
   border-top:5px solid #3498DB;
   text-align:left;
   margin-bottom:20px;
+  min-height:500px;
 }
 .module .p_title{
   height:40px;
