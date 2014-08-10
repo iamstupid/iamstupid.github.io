@@ -12,6 +12,13 @@
   margin:0px;
   box-shadow:0 0 3px #444;
 }
+.topBar_title{
+  font-size:28px;
+  -webkit-transition:all .3s;
+}
+.topBar_title:hover{
+  color:#ddd;
+}
 html,body{
   margin:0px;
   padding:0px;
