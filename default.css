@@ -74,10 +74,10 @@ html,body{
   line-height:50px;
   transition:all .3s;
 }
-.pcont:nth-child(odd){
+.pcont .postCont:nth-child(2n){
   background:#eee;
 }
-.pcont:nth-child(even){
+.pcont .postCont:nth-child(2n+1){
   background:#fff;
 }
 .postCont:hover{
