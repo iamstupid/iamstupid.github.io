@@ -87,11 +87,10 @@ html,body{
   background:#95a5a6 !important;
 }
 .postTitle{
-  display:inline-block;
-  height:50px;
-  width:70px;
+  display:block;
+  height:20px;
+  width:100%;
   font-size:14px;
-  background:#2ECC71;
   text-decoration:none;
   color:black;
 }
