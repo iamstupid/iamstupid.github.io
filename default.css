@@ -63,7 +63,7 @@ html,body{
   width:230px;
   margin-bottom:20px;
   position:relative;
-  top:-15px;
+  top:-30px;
 }
 *::selection{
   background:#5af;
