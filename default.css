@@ -10,6 +10,7 @@
   left:0;
   background:-webkit-linear-gradient(90deg,#222,#333);
   margin:0px;
+  box-shadow:0 0 3px #444;
 }
 html,body{
   margin:0px;
