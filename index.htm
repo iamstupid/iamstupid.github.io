@@ -8,13 +8,14 @@ title: Blog 4 tmzbot
             <div class="module">
                 <div class="p_title">最新文章</div>
                 <div class="pcont">
-                {% for post in site.posts %}
-                <div class="postCont">
-                    <div class="postcont">
-                        <span class="date"></span>{{ post.date | date_to_string }}</span>
-                        <a href="{{ post.url }}" class="postTitle">{{ post.title }}</a>
+                    {% for post in site.posts %}
+                    <div class="postCont">
+                        <div class="postcont">
+                            <span class="date"></span>{{ post.date | date_to_string }}</span>
+                            <a href="{{ post.url }}" class="postTitle">{{ post.title }}</a>
+                        </div>
+                        {% endfor %}
                     </div>
-                    {% endfor %}
                 </div>
             </div>
         </div>
