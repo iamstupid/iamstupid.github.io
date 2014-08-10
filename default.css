@@ -16,6 +16,7 @@
   font-size:28px;
   -webkit-transition:all .3s;
   transition:all .3s;
+  cursor:default;
 }
 .topBar_title:hover{
   color:#ccc;
