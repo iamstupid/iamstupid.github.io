@@ -70,6 +70,7 @@ html,body{
 }
 .postCont{
   height:50px;
+  position:relative;
   line-height:50px;
 }
 .pcont:nth-child(2n){
@@ -79,7 +80,7 @@ html,body{
   background:#fff;
 }
 .postCont:hover{
-  background:#ffe;
+  background:#ffc;
 }
 .postTitle{
   display:inline-block;
@@ -89,4 +90,11 @@ html,body{
   background:#2ECC71;
   text-decoration:none;
   color:black;
+}
+.date{
+  position:absolute;
+  top:0px;
+  left:0px;
+  font-family:Consolas,Ubuntu Mono,Courier New;
+  font-size:10px;
 }
