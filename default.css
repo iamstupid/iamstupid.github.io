@@ -8,7 +8,7 @@
   color:white;
   top:0;
   left:0;
-  background:-webkit-linear-gradient(#222,#333);
+  background:-webkit-linear-gradient(90deg,#222,#333);
   margin:0px;
 }
 html,body{
