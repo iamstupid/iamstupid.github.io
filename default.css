@@ -31,8 +31,7 @@ html,body{
 }
 .fixedWidthContainer{
   width:830px;
-  line-height:0px;
-  display:inline-block;
+  display:block;
   top:50px;
   position:relative;
 }
@@ -54,16 +53,20 @@ html,body{
   width:100%;
 }
 .cont_left{
-  display:inline-block;
+  top:0px;
+  display:block;
   width:550px;
   margin-right:20px;
+  left:0;
 }
 .cont_right{
-  display:inline-block;
+  top:0px;
+  display:block;
   width:230px;
   margin-bottom:20px;
   position:relative;
   top:-30px;
+  right:0;
 }
 *::selection{
   background:#5af;
