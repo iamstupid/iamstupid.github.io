@@ -11,12 +11,10 @@ title: Blog 4 tmzbot
                 <div class="pcont">
                     {% for post in site.posts %}
                     <div class="postCont">
-                        <div class="postcont">
-                            <span class="date"></span>{{ post.date | date_to_string }}</span>
-                            <a href="{{ post.url }}" class="postTitle">{{ post.title }}</a>
-                        </div>
-                        {% endfor %}
+                        <span class="date"></span>{{ post.date | date_to_string }}</span>
+                        <a href="{{ post.url }}" class="postTitle">{{ post.title }}</a>
                     </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
